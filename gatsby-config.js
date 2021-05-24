@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/meldi-daftcode",
   
   siteMetadata: {
     title: "Meldi",
