@@ -2,10 +2,10 @@ import React from 'react';
 
 import { StyledDataWrapper, StyledDataTitle, StyledDataDescription } from './DataEntry.styles'
 
-const DataEntry = ({ num, desc}) => (
+const DataEntry = ({ number, description}) => (
     <StyledDataWrapper>
-        <StyledDataTitle>{num}</StyledDataTitle>
-        <StyledDataDescription>{desc}</StyledDataDescription>
+        <StyledDataTitle>{number}</StyledDataTitle>
+        <StyledDataDescription>{description}</StyledDataDescription>
     </StyledDataWrapper>
 )
 

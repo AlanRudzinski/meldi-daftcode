@@ -18,6 +18,8 @@ export const StyledDataTitle = styled.h2 `
     // letter-spacing: 0em;
     text-align: left;
     margin: 0;
+    margin-bottom: 7px;
+
 
 `
 

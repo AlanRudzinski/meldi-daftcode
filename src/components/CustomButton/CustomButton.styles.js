@@ -10,9 +10,9 @@ cursor: pointer;
 
 background-color: #FABD20;
 color: #131E07;
-border-radius: 8px;
+border-radius: ${props => props.radius}px;
 
-font-size: 25px;
+font-size: ${props => props.font}px;
 font-family: 'Reem Kufi';
 
 ${props => props.addMargin ? `margin-left:${props.addMargin}px;` : ''}

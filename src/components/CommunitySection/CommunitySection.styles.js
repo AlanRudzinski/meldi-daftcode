@@ -1,42 +1,33 @@
 import styled from 'styled-components';
 
 export const StyledSectionWrapper = styled.section`
-    margin-top: 210px;
-    height: 811px;
-    background-color: #FABD20;
-
-    width: 100vw;
+    padding-top: 65px;
+    width: 100%;
     position: relative;
-    transform: translateX(-12vw);
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
+    background: rgb(250, 189, 32);
+    background: linear-gradient(180deg, rgba(250, 189, 32, 1) 0%, rgba(250, 189, 32, 1) 79%, rgba(229,229,229, 1) 79%, rgba(229,229,229,1) 100%);
 `
 
 export const StyledTitleWrapper = styled.div`
     width: 810px;
     text-align: center;
-    margin-top: 63px;
-    margin-left: 10px;
+    
 `
 
 export const StyledDescriptionWrapper = styled.div`
     width: 360px;
     text-align: center;
-    margin-top: 23px;
-    margin-left: 12px;
+    padding: 25px 0 16px;
 `
 
 export const StyledVideoWrapper = styled.div`
     width: 1240px;
     height: 603px;
     border-radius: 8px;
-
-
-    position: absolute;
-    bottom: -210px;
-    left: 107px;
     background-image: url(${props => props.videoImg});
     display: flex;
     justify-content: center;

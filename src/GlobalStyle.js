@@ -5,6 +5,8 @@ const GlobalStyle = createGlobalStyle`
         font-family: Reem Kufi;
         background-color: #E5E5E5;
         overflow-x: hidden;
+        box-sizing: border-box;
+        margin: 0;
     }
 `
 

@@ -4,12 +4,12 @@ import HeroImg from '../../assets/heroImg.svg';
 
 
 export const StyledHeroWrapper = styled.div`
-    margin-top: 130px;
     display: flex;
     justify-content: space-between;
+    padding: 134px 0 0 8px;
 `
 
 export const StyledHeroImg = styled(HeroImg)`
-    margin-top: 47px;
+    padding: 47px 10px 0 0;
     min-width: 677px;
 `

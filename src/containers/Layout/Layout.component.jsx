@@ -1,4 +1,5 @@
 import React from 'react';
+import CustomFooter from '../../components/CustomFooter/CustomFooter.component';
 import HeaderNavigation from '../../components/HeaderNavigation/HeaderNavigation.component';
 
 const Layout = ({children}) => (
@@ -7,9 +8,7 @@ const Layout = ({children}) => (
         <main>
             {children}
         </main>
-        <footer>
-            tu jest footer
-        </footer>
+        <CustomFooter />
     </React.Fragment>
 )
 
