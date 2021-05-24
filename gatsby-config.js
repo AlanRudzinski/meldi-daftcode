@@ -10,6 +10,7 @@ module.exports = {
     "gatsby-plugin-sitemap",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
+    "gatsby-plugin-react-svg",
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -18,5 +19,16 @@ module.exports = {
       },
       __key: "images",
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Reem Kufi`,
+          `Rozha One`
+        ],
+        display: 'swap'
+      }
+    }
+
   ],
 };
