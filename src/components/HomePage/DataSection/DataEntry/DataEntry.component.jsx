@@ -5,7 +5,7 @@ import { StyledDataWrapper, StyledDataTitle, StyledDataDescription } from './Dat
 const DataEntry = ({ number, description}) => (
     <StyledDataWrapper>
         <StyledDataTitle>{number}</StyledDataTitle>
-        <StyledDataDescription>{description}</StyledDataDescription>
+        <StyledDataDescription><div>{description}</div></StyledDataDescription>
     </StyledDataWrapper>
 )
 

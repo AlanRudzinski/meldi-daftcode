@@ -9,7 +9,7 @@ export const StyledTitle = styled.h2`
     letter-spacing: 0px;
     min-width: 300px;
     font-weight: 400;
-    @media (max-width: 400px) {
+    @media (max-width: 500px) {
         font-size: 50px;
         line-height: 58px;
     }

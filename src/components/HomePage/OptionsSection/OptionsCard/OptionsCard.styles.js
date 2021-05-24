@@ -8,11 +8,11 @@ export const StyledCardWrapper = styled.div`
     align-items: center;
     padding: 43px 0;
     box-sizing: border-box;
-    margin-right: 30px;
+    margin: 0 15px;
     width: 350px;
     height: 439px;
     border-radius: 8px;
-    @media(max-width: 400px) {
+    @media(max-width: 900px) {
         width: 327px;
         margin-right: 0;
         margin-bottom: 40px;

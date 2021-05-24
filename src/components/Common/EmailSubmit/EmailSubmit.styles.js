@@ -18,6 +18,10 @@ export const StyledForm = styled.form`
     width: 350px;
     display: flex;
     align-items: center;
+    @media(max-width: 400px){
+        width: 100%;
+        margin-bottom: 22px;
+    }
 `
 
 export const StyledLabel = styled.label`
@@ -28,4 +32,12 @@ export const StyledEmailSubmitWrapper = styled.div`
     display: flex;
     flex-direction: column;
     padding: 44px 7px 0 0;
+    @media(max-width: 400px){
+        align-items: center;
+
+        & h2:first-child{
+            align-self: flex-start;
+        }
+    }
+    
 `

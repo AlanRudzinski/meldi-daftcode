@@ -9,9 +9,9 @@ export const StyledSectionWrapper = styled.section`
     align-items: center;
     position: relative;
     background: rgb(250, 189, 32);
-    background: linear-gradient(180deg, rgba(250, 189, 32, 1) 0%, rgba(250, 189, 32, 1) 79%, rgba(229,229,229, 1) 79%, rgba(229,229,229,1) 100%);
+    background: linear-gradient(180deg, rgba(250, 189, 32, 1) 0%, rgba(250, 189, 32, 1) 79%, rgba(254, 244, 230, 1) 79%, rgba(254, 244, 230, 1) 100%);
     @media (max-width: 400px) {
-        background: linear-gradient(180deg, rgba(250, 189, 32, 1) 0%, rgba(250, 189, 32, 1) 87%, rgba(229,229,229, 1) 87%, rgba(229,229,229,1) 100%);
+        background: linear-gradient(180deg, rgba(250, 189, 32, 1) 0%, rgba(250, 189, 32, 1) 79%, rgba(254, 244, 230, 1) 79%, rgba(254, 244, 230, 1) 100%);
 
     }
 
@@ -20,9 +20,8 @@ export const StyledSectionWrapper = styled.section`
 export const StyledTitleWrapper = styled.div`
     width: 810px;
     text-align: center;
-    @media (max-width: 400px) {
-        width: 370px;
-        padding: 0 0 0 70px;
+    @media (max-width: 850px) {
+        width: 85%;
         text-align: left;
     }
     
@@ -41,16 +40,17 @@ export const StyledDescriptionWrapper = styled.div`
 
 export const StyledVideoWrapper = styled.div`
     width: 1240px;
+    max-width: 85%;
     height: 603px;
     border-radius: 8px;
-    background-image: url(${props => props.videoImg});
+    background: url(${props => props.videoImg}) no-repeat center center;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
 
-    @media (max-width: 400px) {
+    @media (max-width: 600px) {
         width: 327px;
         height: 160px;
     }

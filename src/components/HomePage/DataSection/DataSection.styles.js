@@ -7,9 +7,10 @@ export const StyledSection = styled.section`
     justify-content: center;
     padding: 210px 0 220px;
 
-    @media (max-width: 400px) {
+    @media (max-width: 800px) {
         flex-direction: column;
-        padding: 0 0 0 0;   
+        padding: 0 0 65px 0;   
         margin-top: -30px;  
+        align-items: center;
     }
 `

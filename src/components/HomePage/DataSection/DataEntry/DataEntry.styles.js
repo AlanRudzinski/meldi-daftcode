@@ -38,6 +38,6 @@ export const StyledDataDescription = styled.span`
     @media (max-width: 400px) {
         font-size: 20px;
         line-height: 30px;
-        width: 220px;
+        width: 100%
     }
 `

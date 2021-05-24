@@ -12,8 +12,9 @@ const EmailSubmit = () => (
         <StyledForm action="." method="post">
             <StyledLabel>email</StyledLabel>
             <StyledInput placeholder="Enter your email" type="email" name="email" id="email"/>
-            <Button type="submit" width={113} height={34} font={18} radius={4}>Get started</Button>        
+            {window.innerWidth > 500 ? <Button type="submit" width={113} height={34} font={18} radius={4}>Get started</Button> : ''}        
         </StyledForm>
+        {window.innerWidth > 500 ? '' : <Button type="submit" height={61}>Get started</Button>}        
     </StyledEmailSubmitWrapper>
 )
 

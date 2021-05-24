@@ -29,7 +29,9 @@ padding: 0;
 }
 @media (max-width: 400px) {
     width: 100%;
+    max-width: 320px;
     font-size: 20px;
+    margin: 0;
 }
 
 `
