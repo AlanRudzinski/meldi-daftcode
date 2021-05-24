@@ -1,10 +1,10 @@
 import * as React from "react"
-import Layout from '../containers/Layout/Layout.component';
+import Layout from '../components/Common/Layout/Layout.component';
 import GlobalStyle from '../GlobalStyle';
-import HeroSection from '../components/HeroSection/HeroSection.component';
-import DataSection from "../components/DataSection/DataSection.component";
-import CommunitySection from '../components/CommunitySection/CommunitySection.component';
-import OptionsSection from "../components/OptionsSection/OptionsSection.component";
+import HeroSection from '../components/HomePage/HeroSection/HeroSection.component';
+import DataSection from "../components/HomePage/DataSection/DataSection.component";
+import CommunitySection from '../components/HomePage/CommunitySection/CommunitySection.component';
+import OptionsSection from "../components/HomePage/OptionsSection/OptionsSection.component";
 
 const IndexPage = () => {
   return (
