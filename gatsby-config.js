@@ -1,6 +1,8 @@
 module.exports = {
+  
   siteMetadata: {
     title: "Meldi",
+    siteUrl: "https://alanrudzinski.github.io/meldi-daftcode/"
   },
   plugins: [
     "gatsby-plugin-styled-components",
